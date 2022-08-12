@@ -9,7 +9,9 @@
 
 </br></br>
 1. Add this to your bookmarks
-`javascript:fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/hack.js").then((r) => r.text().then((t) => eval(t)));`
+```ts
+javascript:fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/hack.js").then((r) => r.text().then((t) => eval(t)));
+```
    
 2. Paste this into console </br>
 ```ts
@@ -25,9 +27,7 @@ fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/hack.js")
 </br></br>
 1. Add this to your bookmarks
 ```ts
-javascript:fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/nickname.js")
-.then((r) => r.text() 
-.then((t) => eval(t)));
+javascript:fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/nickname.js").then((r) => r.text() .then((t) => eval(t)));
 ```
    
 2. Paste this into console </br>
@@ -41,10 +41,14 @@ fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/nickname.js")
 
 </br></br>
 1. Add this to your bookmarks
-`javascript:fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/longnickname.js".then((r) => r.text().then((t) => eval(t)));` <br>
+```ts
+javascript:fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/longnickname.js".then((r) => r.text().then((t) => eval(t)));
+``` <br>
    
 2. Paste this into console </br>
-`fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/longnickname.js").then((res) => res.text().then((t) => eval(t)))`
+```ts
+fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/longnickname.js").then((res) => res.text().then((t) => eval(t)))
+```
 
 </br>
 

@@ -12,7 +12,11 @@
 `javascript:fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/hack.js").then((r) => r.text().then((t) => eval(t)));`
    
 2. Paste this into console </br>
-`fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/hack.js").then((res) => res.text().then((t) => eval(t)))`
+```ts
+fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/hack.js")
+.then((res) => res.text()
+.then((t) => eval(t)))
+```
 
 </br>
 
@@ -20,12 +24,18 @@
 
 </br></br>
 1. Add this to your bookmarks
-```javascript:fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/nickname.js")
+```ts
+javascript:fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/nickname.js")
 .then((r) => r.text() 
-.then((t) => eval(t)));```
+.then((t) => eval(t)));
+```
    
 2. Paste this into console </br>
-`fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/nickname.js").then((res) => res.text().then((t) => eval(t)))`
+```ts
+fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/nickname.js")
+.then((res) => res.text()
+.then((t) => eval(t)))
+```
 
 </br><h1 text align = "center"> Unlimited Nickname Length </h1>
 

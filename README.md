@@ -43,7 +43,7 @@ fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/nickname.js")
 1. Add this to your bookmarks
 ```ts
 javascript:fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/longnickname.js".then((r) => r.text().then((t) => eval(t)));
-``` <br>
+``` 
    
 2. Paste this into console </br>
 ```ts

@@ -20,7 +20,9 @@
 
 </br></br>
 1. Add this to your bookmarks
-`javascript:fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/nickname.js").then((r) => r.text() .then((t) => eval(t)));` 
+```javascript:fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/nickname.js")
+.then((r) => r.text() 
+.then((t) => eval(t)));```
    
 2. Paste this into console </br>
 `fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/nickname.js").then((res) => res.text().then((t) => eval(t)))`

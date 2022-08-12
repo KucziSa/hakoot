@@ -47,7 +47,9 @@ javascript:fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/longnick
    
 2. Paste this into console </br>
 ```ts
-fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/longnickname.js").then((res) => res.text().then((t) => eval(t)))
+fetch("https://raw.githubusercontent.com/KucziSa/hakoot/main/longnickname.js")
+.then((res) => res.text()
+.then((t) => eval(t)))
 ```
 
 </br>
